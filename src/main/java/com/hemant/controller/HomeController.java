@@ -19,4 +19,10 @@ public class HomeController {
         }
 
     }
+     @GetMapping("/get")
+    public String get() {
+       
+        return "For fetch checking";
+
+    }
 }
